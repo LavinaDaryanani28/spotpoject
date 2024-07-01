@@ -13,17 +13,16 @@ var arrContent=[];
 List<DynamicWidget> listDynamic=[];
 class _LibraryState extends State<Library> {
 
-
-
   addDynamic(){
     listDynamic.add(new DynamicWidget());
     setState((){});
     arrContent=[{
       "name":playlist.text.toString(),
     }];
-    setState(() {
-
-    });
+    Navigator.of(context).pop();
+    // setState(() {
+    //
+    // });
   }
 
   TextEditingController playlist=TextEditingController();
