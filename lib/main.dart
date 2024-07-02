@@ -3,6 +3,7 @@ import 'package:spotify/Account.dart';
 import 'package:spotify/Home.dart';
 import 'package:spotify/Library.dart';
 import 'package:spotify/Settings.dart';
+import 'package:spotify/album.dart';
 import 'package:spotify/artist.dart';
 import 'package:spotify/firstscreen.dart';
 import 'package:spotify/signin.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Artist(),
+      home: Album(),
       debugShowCheckedModeBanner: false,
     );
   }
