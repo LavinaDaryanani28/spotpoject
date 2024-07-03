@@ -8,6 +8,7 @@ import 'package:spotify/artist.dart';
 import 'package:spotify/firstscreen.dart';
 import 'package:spotify/signin.dart';
 import 'package:spotify/splash.dart';
+import 'package:spotify/trial.dart';
 
 import 'login.dart';
 import 'navigationBar.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Album(),
+      home: Trial(),
       debugShowCheckedModeBanner: false,
     );
   }
